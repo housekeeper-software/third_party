@@ -33,3 +33,8 @@ libyuv:YUV图像格式转换库，(clone from google)
 编译之前，需要先编译c-ares,openssl
 c-ares作为异步DNS解析库可以被libcurl使用
 ```
+6.编译onvif
+```
+我们目前只编译静态库使用。
+依赖jsoncpp, openssl
+```
